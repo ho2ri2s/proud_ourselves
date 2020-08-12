@@ -1,0 +1,63 @@
+name: proud_ourselves
+description: Google Tasks clone
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  #  mono_kit: ^0.14.0-dev
+  # For Firebase
+  cloud_firestore: ^0.13.7
+  firebase_analytics: ^5.0.16
+  firebase_auth: ^0.16.1
+  firebase_core: ^0.4.5
+  firebase_crashlytics: ^0.1.4+1
+  firestore_ref: ^0.8.0-dev
+  firebase_performance: ^0.3.2
+  google_sign_in: ^4.5.1
+  cloud_functions: ^0.5.0
+  # For Analyzer
+  pedantic: ^1.9.0
+  # For Architecture
+  flutter_hooks: ^0.12.0
+  hooks_riverpod: ^0.6.0-dev+2
+  #  route_observer_mixin: any
+  #  provider: any
+  #  rxdart: any
+  # For Model
+  json_serializable: ^3.3.0
+  freezed_annotation: ^0.11.0+1
+  json_annotation: ^3.0.1
+  # For DateTime
+  intl: ^0.16.1
+  # For Key-Value local storage
+  shared_preferences: ^0.5.8
+  # Convert between Enum and String
+  enum_to_string: ^1.0.4
+  # For UIs
+  google_fonts: ^1.1.0
+  fluttertoast: ^7.0.2
+  cupertino_icons: any
+  simple_logger: ^1.7.0
+  #  undraw: any
+  #  cached_network_image: any
+  #  flutter_svg: ^0.17.3+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  intl_translation: any
+  build_runner: ^1.7.4
+  freezed: ^0.11.5
+  json_serializable: ^3.4.0
+  pedantic_mono: any
+  # For Testing
+  mockito:
+  image_test_utils:
+
+flutter:
+  uses-material-design: true
+
