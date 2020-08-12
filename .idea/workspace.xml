@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="066225c7-2902-4d1f-a252-9cac038eff40" name="Default Changelist" comment="" />
+    <list default="true" id="066225c7-2902-4d1f-a252-9cac038eff40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,10 +50,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="373" y="218" width="694" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597264420040" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597265983581">
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597266909899">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-1920.121.1920.1057@0.23.1440.877" timestamp="1597262579256" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597265983581" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597266909899" />
   </component>
 </project>
