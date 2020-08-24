@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="066225c7-2902-4d1f-a252-9cac038eff40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +47,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1598243447100">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598243447100" />
     <state x="373" y="218" width="694" height="486" key="find.popup" timestamp="1597264420040">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="373" y="218" width="694" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597264420040" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597266909899">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="385" y="195" width="670" height="694" key="search.everywhere.popup" timestamp="1598243544711">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="385" y="195" width="670" height="694" key="search.everywhere.popup/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598243544711" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-1920.121.1920.1057@0.23.1440.877" timestamp="1597262579256" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597266909899" />
   </component>
