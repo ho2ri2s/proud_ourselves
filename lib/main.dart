@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:proud_ourselves/app.dart';
+import 'package:proud_ourselves/util/logger.dart';
 
 void main() {
   runApp(const ProviderScope(
-    observers: [
-      _ProviderObserver(),
-    ],
+    observers: [_ProviderObserver()],
     child: App(),
   ));
 }
@@ -15,22 +15,22 @@ class _ProviderObserver implements ProviderObserver {
 
   @override
   void didAddProvider(ProviderBase<dynamic, dynamic> provider, Object value) {
-    
+    logger.info('provider: $provider, value: $value');
   }
 
   @override
   void didDisposeProvider(ProviderBase<dynamic, dynamic> provider) {
-    // TODO: implement didDisposeProvider
+    logger.info('provider: $provider');
   }
 
   @override
   void didUpdateProvider(ProviderBase<dynamic, dynamic> provider, Object newValue) {
-    // TODO: implement didUpdateProvider
+    logger.info('provider: $provider, value: $newValue');
   }
 
   @override
   void mayHaveChanged(ProviderBase provider) {
-    // TODO: implement mayHaveChanged
-  }
+    logger.info('provider: $provider);
+    }
 
 }
