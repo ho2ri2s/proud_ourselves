@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="066225c7-2902-4d1f-a252-9cac038eff40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/home_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/providers/router.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/providers/navigator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/providers/navigator.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/providers/theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/providers/theme.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +32,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -47,22 +52,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="243" key="GridCell.Tab.0.bottom" timestamp="1598250658258">
+    <state width="1398" height="228" key="GridCell.Tab.0.bottom" timestamp="1598251897045">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.bottom/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598250658258" />
-    <state width="1398" height="243" key="GridCell.Tab.0.center" timestamp="1598250658257">
+    <state width="1398" height="228" key="GridCell.Tab.0.bottom/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598251897045" />
+    <state width="1398" height="228" key="GridCell.Tab.0.center" timestamp="1598251897044">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.center/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598250658257" />
-    <state width="1398" height="243" key="GridCell.Tab.0.left" timestamp="1598250658256">
+    <state width="1398" height="228" key="GridCell.Tab.0.center/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598251897044" />
+    <state width="1398" height="228" key="GridCell.Tab.0.left" timestamp="1598251897044">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.left/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598250658256" />
-    <state width="1398" height="243" key="GridCell.Tab.0.right" timestamp="1598250658258">
+    <state width="1398" height="228" key="GridCell.Tab.0.left/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598251897044" />
+    <state width="1398" height="228" key="GridCell.Tab.0.right" timestamp="1598251897045">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.right/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598250658258" />
+    <state width="1398" height="228" key="GridCell.Tab.0.right/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598251897045" />
     <state x="475" y="168" key="RollbackChangesDialog" timestamp="1598249818200">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -71,19 +76,20 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598243447100" />
-    <state x="373" y="218" width="694" height="486" key="find.popup" timestamp="1597264420040">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="373" y="200" width="694" height="499" key="find.popup" timestamp="1598253012558">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="373" y="200" width="694" height="499" key="find.popup/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598253012558" />
     <state x="373" y="218" width="694" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597264420040" />
     <state x="385" y="210" key="run.anything.popup" timestamp="1598250458247">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" key="run.anything.popup/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598250458247" />
-    <state x="385" y="195" width="670" height="694" key="search.everywhere.popup" timestamp="1598251705499">
+    <state x="385" y="195" width="670" height="694" key="search.everywhere.popup" timestamp="1598252986365">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="213" width="670" height="677" key="search.everywhere.popup/-1016.111.1016.723/0.23.1440.877@0.23.1440.877" timestamp="1598250897647" />
-    <state x="385" y="195" width="670" height="694" key="search.everywhere.popup/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598251705499" />
+    <state x="385" y="195" width="670" height="694" key="search.everywhere.popup/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598252986365" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-1920.121.1920.1057@0.23.1440.877" timestamp="1597262579256" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597266909899" />
     <state x="450" y="309" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1598251404537">

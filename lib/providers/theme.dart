@@ -17,7 +17,7 @@ class _ThemeController extends StateNotifier<ThemeMode> {
 
   Future<void> showThemeSelection() async {
     state = await showModalActionSheet(
-      context: _read(navigatorProvider).currentState.descendantContext,
+      context: _read(navigatorKeyProvider).currentState.descendantContext,
       title: 'Theme',
       message: 'Current: ${describeEnum(state)}',
       actions: ThemeMode.values
