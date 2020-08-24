@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="066225c7-2902-4d1f-a252-9cac038eff40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/home_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/providers/router.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/providers/navigator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/providers/navigator.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/providers/theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/providers/theme.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/home_page.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +81,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" key="run.anything.popup/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598250458247" />
-    <state x="385" y="195" width="670" height="694" key="search.everywhere.popup" timestamp="1598252986365">
+    <state x="385" y="195" width="670" height="694" key="search.everywhere.popup" timestamp="1598253372810">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="213" width="670" height="677" key="search.everywhere.popup/-1016.111.1016.723/0.23.1440.877@0.23.1440.877" timestamp="1598250897647" />
-    <state x="385" y="195" width="670" height="694" key="search.everywhere.popup/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598252986365" />
+    <state x="385" y="195" width="670" height="694" key="search.everywhere.popup/-1016.88.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1598253372810" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-1920.121.1920.1057@0.23.1440.877" timestamp="1597262579256" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597266909899" />
     <state x="450" y="309" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1598251404537">
