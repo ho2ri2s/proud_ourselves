@@ -2,6 +2,7 @@ import 'package:adaptive_dialog/adaptive_dialog.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:proud_ourselves/providers/navigator.dart';
 import 'package:state_notifier/state_notifier.dart';
 
 final lightTheme = ThemeData.from(colorScheme: const ColorScheme.light());
@@ -16,7 +17,7 @@ class _ThemeController extends StateNotifier<ThemeMode> {
 
   Future<void> showThemeSelection() async {
     state = await showModalActionSheet(
-      context: _read(navigatorKeyProcvider).currentState.descendantContext,
+      context: _read(navigatorProvider).currentState.descendantContext,
       title: 'Theme',
       message: 'Current: ${describeEnum(state)}',
       actions: ThemeMode.values

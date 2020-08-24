@@ -30,7 +30,7 @@ class _ProviderObserver implements ProviderObserver {
 
   @override
   void mayHaveChanged(ProviderBase provider) {
-    logger.info('provider: $provider);
+    logger.info('provider: $provider');
     }
 
 }

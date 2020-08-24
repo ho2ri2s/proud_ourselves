@@ -223,14 +223,10 @@ PODS:
     - Firebase/Firestore (~> 6.26.0)
     - firebase_core
     - Flutter
-  - cloud_firestore_web (0.1.0):
-    - Flutter
   - cloud_functions (0.6.0):
     - Firebase/CoreOnly (~> 6.26.0)
     - Firebase/Functions (~> 6.26.0)
     - firebase_core
-    - Flutter
-  - cloud_functions_web (1.0.0):
     - Flutter
   - Crashlytics (3.14.0):
     - Fabric (~> 1.10.2)
@@ -259,19 +255,13 @@ PODS:
     - Firebase/CoreOnly (~> 6.26.0)
     - firebase_core
     - Flutter
-  - firebase_analytics_web (0.1.0):
-    - Flutter
   - firebase_auth (0.18.0-1):
     - Firebase/Auth (~> 6.26.0)
     - Firebase/CoreOnly (~> 6.26.0)
     - firebase_core
     - Flutter
-  - firebase_auth_web (0.1.0):
-    - Flutter
   - firebase_core (0.5.0):
     - Firebase/CoreOnly (~> 6.26.0)
-    - Flutter
-  - firebase_core_web (0.1.0):
     - Flutter
   - firebase_crashlytics (0.0.1):
     - Crashlytics
@@ -424,44 +414,23 @@ PODS:
   - nanopb/encode (1.30905.0)
   - path_provider (0.0.1):
     - Flutter
-  - path_provider_linux (0.0.1):
-    - Flutter
-  - path_provider_macos (0.0.1):
-    - Flutter
   - PromisesObjC (1.2.10)
   - Protobuf (3.13.0)
   - shared_preferences (0.0.1):
     - Flutter
-  - shared_preferences_linux (0.0.1):
-    - Flutter
-  - shared_preferences_macos (0.0.1):
-    - Flutter
-  - shared_preferences_web (0.0.1):
-    - Flutter
 
 DEPENDENCIES:
   - cloud_firestore (from `.symlinks/plugins/cloud_firestore/ios`)
-  - cloud_firestore_web (from `.symlinks/plugins/cloud_firestore_web/ios`)
   - cloud_functions (from `.symlinks/plugins/cloud_functions/ios`)
-  - cloud_functions_web (from `.symlinks/plugins/cloud_functions_web/ios`)
-  - Firebase/Analytics
   - firebase_analytics (from `.symlinks/plugins/firebase_analytics/ios`)
-  - firebase_analytics_web (from `.symlinks/plugins/firebase_analytics_web/ios`)
   - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
-  - firebase_auth_web (from `.symlinks/plugins/firebase_auth_web/ios`)
   - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
-  - firebase_core_web (from `.symlinks/plugins/firebase_core_web/ios`)
   - firebase_crashlytics (from `.symlinks/plugins/firebase_crashlytics/ios`)
   - firebase_performance (from `.symlinks/plugins/firebase_performance/ios`)
   - Flutter (from `Flutter`)
   - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
-  - path_provider_linux (from `.symlinks/plugins/path_provider_linux/ios`)
-  - path_provider_macos (from `.symlinks/plugins/path_provider_macos/ios`)
   - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
-  - shared_preferences_linux (from `.symlinks/plugins/shared_preferences_linux/ios`)
-  - shared_preferences_macos (from `.symlinks/plugins/shared_preferences_macos/ios`)
-  - shared_preferences_web (from `.symlinks/plugins/shared_preferences_web/ios`)
 
 SPEC REPOS:
   trunk:
@@ -498,24 +467,14 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   cloud_firestore:
     :path: ".symlinks/plugins/cloud_firestore/ios"
-  cloud_firestore_web:
-    :path: ".symlinks/plugins/cloud_firestore_web/ios"
   cloud_functions:
     :path: ".symlinks/plugins/cloud_functions/ios"
-  cloud_functions_web:
-    :path: ".symlinks/plugins/cloud_functions_web/ios"
   firebase_analytics:
     :path: ".symlinks/plugins/firebase_analytics/ios"
-  firebase_analytics_web:
-    :path: ".symlinks/plugins/firebase_analytics_web/ios"
   firebase_auth:
     :path: ".symlinks/plugins/firebase_auth/ios"
-  firebase_auth_web:
-    :path: ".symlinks/plugins/firebase_auth_web/ios"
   firebase_core:
     :path: ".symlinks/plugins/firebase_core/ios"
-  firebase_core_web:
-    :path: ".symlinks/plugins/firebase_core_web/ios"
   firebase_crashlytics:
     :path: ".symlinks/plugins/firebase_crashlytics/ios"
   firebase_performance:
@@ -526,35 +485,20 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/fluttertoast/ios"
   path_provider:
     :path: ".symlinks/plugins/path_provider/ios"
-  path_provider_linux:
-    :path: ".symlinks/plugins/path_provider_linux/ios"
-  path_provider_macos:
-    :path: ".symlinks/plugins/path_provider_macos/ios"
   shared_preferences:
     :path: ".symlinks/plugins/shared_preferences/ios"
-  shared_preferences_linux:
-    :path: ".symlinks/plugins/shared_preferences_linux/ios"
-  shared_preferences_macos:
-    :path: ".symlinks/plugins/shared_preferences_macos/ios"
-  shared_preferences_web:
-    :path: ".symlinks/plugins/shared_preferences_web/ios"
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
   cloud_firestore: b054ccc068b5907645c32b669d38e82db2a11fc7
-  cloud_firestore_web: 9ec3dc7f5f98de5129339802d491c1204462bfec
   cloud_functions: d4c231ef524d0d49d89177b3f3f85256c6be4a9a
-  cloud_functions_web: ec883775f4a3b3fad943918d2cdad4fbf51cdbf0
   Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
   Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
   Firebase: 7cf5f9c67f03cb3b606d1d6535286e1080e57eb6
   firebase_analytics: 3ad65aa7be059752b2c1a6392bfafe030b4ab9fa
-  firebase_analytics_web: 7d539061ea4af07563a0e21044af89cab70efec0
   firebase_auth: c42c06a212439824b5da53437da905931e8e6b9a
-  firebase_auth_web: 0955c07bcc06e84af76b9d4e32e6f31518f2d7de
   firebase_core: 3134fe79d257d430f163b558caf52a10a87efe8a
-  firebase_core_web: d501d8b946b60c8af265428ce483b0fff5ad52d1
   firebase_crashlytics: cc468e94e5a637364aeeeec5c8a96d92ea75ec7b
   firebase_performance: 485c41797720010a4722a4016ba341537c58a330
   FirebaseABTesting: 821a3a3e4a145987e80fee3657c4de1cb9adf693
@@ -582,15 +526,10 @@ SPEC CHECKSUMS:
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
   path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
-  path_provider_linux: 4d630dc393e1f20364f3e3b4a2ff41d9674a84e4
-  path_provider_macos: f760a3c5b04357c380e2fddb6f9db6f3015897e0
   PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
   Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
   shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
-  shared_preferences_linux: afefbfe8d921e207f01ede8b60373d9e3b566b78
-  shared_preferences_macos: f3f29b71ccbb56bf40c9dd6396c9acf15e214087
-  shared_preferences_web: 141cce0c3ed1a1c5bf2a0e44f52d31eeb66e5ea9
 
-PODFILE CHECKSUM: 346b6d2158c5fe34aa061403159ae332e38ae875
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
 
 COCOAPODS: 1.9.1
